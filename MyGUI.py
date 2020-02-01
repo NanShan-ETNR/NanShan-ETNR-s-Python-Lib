@@ -26,5 +26,5 @@ def button(win,text='',command=None,anchor=None,width=None,height=None,color=Non
 def label(win,text='',justify=None,anchor=None,width=None,height=None,bg=None,fg=None,image=None,exportselection=None):
      return tk.Label(win,text=text,anchor=anchor,width=width,height=height,bg=bg,fg=fg,justify=justify,image=image,exportselection=exportselection)
 
-def text(win,autoseparators=None,bg=None,bd=None,cursor=None,exportselection=None,fg=None,font=None,height=None,padx=None,pady=None,state=None,width=None,highlightthickness=None,highlightcolor=None,highlightbackground=None,text=''):
-     pass
+def text(win,autoseparators=None,bg=None,bd=None,cursor=None,exportselection=None,fg=None,font=None,height=None,padx=None,pady=None,state=None,width=None,highlightthickness=None,highlightcolor=None,highlightbackground=None):
+     return tk.Text(win,autoseparators=autoseparators,bg=bg,bd=bd,cursor=cursor,exportselection=exportselection,fg=fg,font=font,height=height,padx=padx,pady=pady,state=state,width=width,highlightthickness=highlightthickness,highlightcolor=highlightcolor,highlightbackground=highlightbackground)
